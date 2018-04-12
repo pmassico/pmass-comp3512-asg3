@@ -1,0 +1,199 @@
+/* IMPORTS */
+@font-face {
+    font-family: 'AvenirNext-Regular';
+    src: url('/assignment1/fonts/AvenirNext-Regular.ttf'); }
+
+@font-face {
+    font-family: 'AvenirNext-Medium';
+    src: url('/assignment1/fonts/AvenirNext-Medium.ttf'); }
+
+@font-face {
+    font-family: 'AvenirNext-Bold';
+    src: url('/assignment1/fonts/AvenirNext-Bold.ttf'); }
+
+
+
+/* -------------- TYPE -------------- */
+h1, h2, h3 {
+    font-family: 'AvenirNext-Bold', sans-serif;
+    color:       #616161;
+}
+
+h4, h5 {
+    font-family: 'AvenirNext-Regular', sans-serif;
+    color:       #979797;
+}
+h4 { font-size: 24px; }
+h5 { font-size: 16px; }
+
+p, .fav {
+    font-family: 'AvenirNext-Regular', sans-serif;
+    color:       #616161;
+    font-size:   18px;
+}
+
+button, form-control {
+    text-transform: lowercase;
+}
+
+/* -------------- HEADER NAV -------------- */
+.navbar-brand {
+    font-family:   'Dosis', serif;
+    font-size:      32px;
+    text-transform: lowercase;
+}
+
+.topHeaderRow  a, button {
+    font-family: 'Nunito', serif;
+    color:       #979797;
+}
+
+/* THEME COLORING */
+.topHeaderRow {
+  background-color: #FFF;
+  height:           2.2em;
+  font-size:        0.8em;
+  padding-top:      0.5em;
+}
+
+.topHeaderRow  a:link { 
+  color: #979797;
+}
+
+.topHeaderRow  a:hover { 
+  color: #1E93F5;
+  text-decoration: none;
+}
+
+.navbar-form .form-control {
+    background-color: #1E93F5;
+    color:            #FFF;
+    border: 1px solid #FFF;
+}
+
+.navbar-form .form-control::-webkit-input-placeholder {
+    text-transform: lowercase;
+    color:          #FFF;
+}
+
+.navbar-form .form-control, .dropdown-menu a {
+    font-family: 'Nunito', serif;
+}
+
+.dropdown-menu {
+    padding: 0;
+    border: 0;
+    background-color: #FFF;
+}
+
+.dropdown-menu>li>a {
+    color: #1E93F5;
+}
+
+.dropdown-menu>li>a:hover {
+    background-color: #FFF;
+}
+
+/* -------------- END HEADER NAV -------------- */
+
+
+.panel-body > p {
+    font-family: 'AvenirNext-Regular', sans-serif;
+    font-size: 18px;
+    color: #979797;
+}
+
+table { 
+    width: 90%;
+    margin-right: auto;
+    
+}
+
+tbody p {
+    font-family: 'AvenirNext-Regular', sans-serif;
+    font-size: 18px;
+    color: #464646;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+
+.description {
+    margin-top: 8px;
+   font-size: 20px;   
+}
+
+.details-list {
+   list-style-type: none;   
+    padding-left: 0;
+}
+.details-list li {
+    margin: 5px 0 0 0;    
+}
+
+.caption {
+     text-align: center;   
+}
+
+.thumbnail {
+     border-color: #9FA8DA;   
+}
+
+.portfolio-item {
+   margin-top: 10px;
+}
+
+footer .final {
+    font-size: 80%;
+    padding-top: 10px;
+    margin-top: 10px;
+    text-align: center;
+    color: #979797;
+}
+
+footer .container-fluid {
+    background-color:  #FFF;
+}
+
+
+footer hr {
+   margin-bottom: 0;   
+}
+
+.countryButtons  {
+    margin-bottom: 10px;
+}
+
+.caption-style-2 .caption {
+    top: 150px;
+}
+.caption-style-2 .caption-text {
+    width: 150px;
+    height: 150px;
+}
+
+.caption-style-2 li {
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.caption-text p {
+    color: #FFF;
+    font-size: 100%;
+}
+
+@media (min-width: 992px) {
+    .col-md-6 {
+        width: 48.93%;
+    }
+    .row .panel:first-child {
+    margin-right: 20px;
+    }
+    #facts {
+        margin-right: 20px;
+    }
+}
+
+.btn-group {
+    margin-bottom: 20px;
+}

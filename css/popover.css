@@ -1,0 +1,13 @@
+/* source: lab 10  */
+#preview {
+    position: absolute;
+    padding: 15px 15px 15px 15px;
+    display: none;
+    background-color: white;
+    border: 1px solid #ddd;
+}
+
+.gray {
+     filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}

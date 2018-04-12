@@ -1,0 +1,224 @@
+/* -------------- HEADER -------------- */
+
+/* UNDERLINE ANIMATION */
+.navbar-default .navbar-nav>li>a, button {
+    font-family: 'Nunito';
+    position: relative;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #FFF;
+}
+
+.navbar-default .navbar-nav>li>a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #FFF;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    -moz-transform: scaleX(0);
+    -ms-transform: scaleX(0);
+    -o-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.navbar-default .navbar-nav>li>a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus, .navbar-default .navbar-nav>li>a:focus {
+    color: #FFF;
+}
+
+body {
+    background-color: #FFF;
+}
+
+footer p {
+    font-size: 90%;
+}
+
+/* pad main content so footer has room at the bottom */
+main {
+    margin-bottom: 78px;
+}
+
+select {
+    width: 200px;
+}
+
+#pagination {
+    margin-left:  auto;
+    margin-right: auto;
+}
+
+#map {
+    height: 250px;
+}
+       
+.browse-list {
+    padding: 0px;
+}
+
+.browse-list-ul {
+    margin: 0px;
+}
+
+.index-nav figure {
+    position: relative;
+}
+
+.index-nav h1 {
+    opacity: 0;
+    color: #FFFFFF;
+    background-color: #000000;
+    font-style: italic;
+}
+
+.index-nav figure:hover h1 {
+    opacity: 1;
+    
+	transform: translateY(-100px);
+	-webkit-transform:translateY(-100px);
+	-moz-transform:translateY(-100px);
+	-ms-transform:translateY(-100px);
+	-o-transform:translateY(-100px);
+}
+
+.index-nav figure:hover img {
+    opacity: 0.5;
+}
+
+
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+    background-color: #1E93F5;
+    color: #FFF;
+}
+
+.navbar-default {
+    background-color: #1E93F5;
+    border: none;
+}
+
+/* underline effect */
+
+
+
+/* Single-Country */
+
+.panel iframe {
+    width: 100%;
+}
+
+#facts td {
+    height: 50px;
+}
+
+
+
+
+/* Browse images */
+
+.form-horizontal .form-control::-webkit-input-placeholder {
+    font-family: 'AvenirNext-Regular', sans-serif;
+    text-transform: lowercase;
+    color: #979797;
+}
+
+.form-horizontal button, .btn-success, .navbar-default .navbar-nav>li>a, button {
+    font-family: 'AvenirNext-Regular', sans-serif;
+    color: #FFF;
+    text-transform: lowercase;
+}
+
+select, option {
+    height: 36px;
+}
+
+.panel-body h4 {
+    margin-top: 0;
+}
+
+#post {
+    border: 0;
+    box-shadow: 0 0px 0px rgba(0,0,0,0);
+}
+
+#post hr {
+    color: #ddd;
+}
+
+
+
+/* Single Image */
+.details-list>li>a, .details-list>li, .left-nav, .user-profile th, select, option, .details {
+    font-family: 'AvenirNext-Regular', sans-serif;
+}
+
+.user-profile th {
+    color: #979797;
+}
+
+/*Favorites*/
+.fav > a:hover {
+    background-color: #FF0D5F;
+    color: #FFFFFF;
+    opacity: 0.3;
+}
+
+/*Browse Posts*/
+#postJumbo {
+    background-color: #BADEFB;
+}
+
+/*Login*/
+.form-control {
+    margin-bottom: 5px;
+}
+
+@media (max-width: 988px) {
+    .disappear {
+        display: none;
+    } 
+}
+
+.block {
+    display: inline-block;
+}
+
+.size-list {
+    width: 100px;
+}
+
+.paper-list {
+    width: 120px;
+}
+
+.frame-list {
+    width: 200px;
+}
+
+.qty {
+    width: 50px;
+}
+
+.line-total {
+    width: 120px;
+}
+
+#print {
+    margin-bottom: 20px;
+}
